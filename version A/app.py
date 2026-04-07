@@ -1,4 +1,5 @@
 from shiny import App, ui, reactive, render, req
+import uuid
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -263,6 +264,7 @@ pre.shiny-text-output {
 
 
 #-----GA,1----------
+session_ab_test_id = reactive.Value(str(uuid.uuid4()))
 # Analytics script with environment check
 ga_script = ui.HTML(f"""
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M4BHM6T44E"></script>
@@ -915,7 +917,8 @@ def server(input, output, session):
                         "params": {
                             "app_version": "A",
                             "task_id": task_name,
-                            "time_spent_seconds": time_spent
+                            "time_spent_seconds": time_spent,
+                            "ab_test_id": session_ab_test_id.get()
                         }
                     }
                 )
@@ -1075,7 +1078,8 @@ def server(input, output, session):
                     "params": {
                         "app_version": "A",
                         "rating": int(input.user_rating()[0]), 
-                        "tasks_completed": completed_count 
+                        "tasks_completed": completed_count,
+                        "ab_test_id": session_ab_test_id.get() 
                     }
                 }
             )
@@ -1101,7 +1105,8 @@ def server(input, output, session):
                     "params": {
                         "app_version": "A",
                         "tasks_completed_at_dropout": completed_count,
-                        "rating": int(input.user_rating()[0]) 
+                        "rating": int(input.user_rating()[0]) ,
+                        "ab_test_id": session_ab_test_id.get()
                     }
                 }
             )
