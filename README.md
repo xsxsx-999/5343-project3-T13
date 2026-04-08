@@ -2,7 +2,7 @@
 
 https://xsxsx-999.github.io/random-url-for-AB-test-5243/
 
-This URL Randomly split users to different versions of our App.
+This URL Randomly split users to different versions of our App. The html code is named 'index.html'.
 
 ### URLs for 2 versions:
 
