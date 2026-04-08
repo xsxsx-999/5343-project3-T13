@@ -1,0 +1,12 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "/Users/Xsx/Documents/GitHub/5343-project3-T13/version_A",
+        "app_url": "https://xsxshiny.shinyapps.io/ab-test-version-a/",
+        "app_id": "17080318",
+        "app_guid": null,
+        "title": "ab-test-version-a",
+        "app_mode": "python-shiny",
+        "app_store_version": 1
+    }
+}

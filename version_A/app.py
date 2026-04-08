@@ -305,35 +305,35 @@ user_guide_tab = ui.nav_panel(
                 ui.div("1", class_="guide-step-num"),
                 ui.div(
                     ui.p("Data Upload", class_="guide-step-title"),
-                    ui.p("Upload CSV, Excel, JSON, or Parquet files — or load one of the built-in sample datasets to explore the app instantly.", class_="guide-step-desc"),
+                    ui.p("Upload files — or load one of the built-in sample datasets to explore the app instantly.", class_="guide-step-desc"),
                 ),
             class_="guide-step-card"),
             ui.div(
                 ui.div("2", class_="guide-step-num"),
                 ui.div(
                     ui.p("Cleaning & Preprocessing", class_="guide-step-title"),
-                    ui.p("Handle missing values, remove duplicates, filter outliers, scale numeric features, and encode categorical variables interactively.", class_="guide-step-desc"),
+                    ui.p("Handle missing values, duplicates, outliers, scaling, encoding, and data types interactively.", class_="guide-step-desc"),
                 ),
             class_="guide-step-card"),
             ui.div(
                 ui.div("3", class_="guide-step-num"),
                 ui.div(
                     ui.p("Feature Engineering", class_="guide-step-title"),
-                    ui.p("Create new columns via arithmetic operations, math transforms (log, sqrt, square), or extract components from datetime columns.", class_="guide-step-desc"),
+                    ui.p("Create new columns via transformation, extract components from datetime columns; or drop columns.", class_="guide-step-desc"),
                 ),
             class_="guide-step-card"),
             ui.div(
                 ui.div("4", class_="guide-step-num"),
                 ui.div(
                     ui.p("Exploratory Data Analysis", class_="guide-step-title"),
-                    ui.p("Explore your data with interactive Plotly charts: Histogram, Box Plot, Bar Chart, Scatter Plot, and Correlation Heatmap.", class_="guide-step-desc"),
+                    ui.p("Draw Histogram, Box Plot, Bar Chart, Scatter Plot, and Heatmap with Global Filters.", class_="guide-step-desc"),
                 ),
             class_="guide-step-card"),
             ui.div(
                 ui.div("5", class_="guide-step-num"),
                 ui.div(
                     ui.p("Export", class_="guide-step-title"),
-                    ui.p("Download your fully processed dataset as a CSV file at any point in the pipeline.", class_="guide-step-desc"),
+                    ui.p("Download processed dataset as a CSV file.", class_="guide-step-desc"),
                 ),
             class_="guide-step-card"),
         ),
@@ -801,7 +801,7 @@ def server(input, output, session):
     #----Final check point-----
 
     # ==========================================
-    # 🌟 1. live check（debuged 4.7）
+    # 🌟 1. live check（debugged 4.7）
     # ==========================================
     @reactive.Calc
     def get_task_status():

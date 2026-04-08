@@ -1,11 +1,11 @@
 {
     "https://api.shinyapps.io": {
         "server_url": "https://api.shinyapps.io",
-        "filename": "/Users/shreya.a/Downloads/5343-project3-T13-main/version_B",
-        "app_url": "https://shreyaamalapurapu.shinyapps.io/proj3-dataexplorer-a/",
-        "app_id": "17079745",
+        "filename": "/Users/Xsx/Documents/GitHub/5343-project3-T13/version_B",
+        "app_url": "https://xsxshiny.shinyapps.io/ab-test-version-b/",
+        "app_id": "17080358",
         "app_guid": null,
-        "title": "proj3-dataexplorer-b/",
+        "title": "ab-test-version-b",
         "app_mode": "python-shiny",
         "app_store_version": 1
     }
