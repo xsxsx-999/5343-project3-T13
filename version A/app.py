@@ -801,7 +801,7 @@ def server(input, output, session):
     #----Final check point-----
 
     # ==========================================
-    # 🌟 1. live check
+    # 🌟 1. live check（debuged 4.7）
     # ==========================================
     @reactive.Calc
     def get_task_status():
@@ -816,31 +816,41 @@ def server(input, output, session):
             import pandas as pd # Ensure pandas is imported for type checking and min()
             
             # Task 1: Load Data
-            status["Task 1"] = True 
+            status["Task 1"] = 'product_id' in cols
             
-            # Task 2: Label Encode product_id (must be converted to numeric type)
+            # Task 2 Strict Version: Label Encode product_id
             is_task2_done = False
-            if 'product_id' in cols:
-                is_task2_done = pd.api.types.is_numeric_dtype(df['product_id'])
-            status["Task 2"] = status["Task 1"] and is_task2_done
+            is_1_based = False # for Task 5 
             
+            if 'product_id' in cols:
+                if pd.api.types.is_integer_dtype(df['product_id']):
+                    n_unique = df['product_id'].nunique()
+                    min_val = df['product_id'].min()
+                    max_val = df['product_id'].max()
+                    
+                    is_0_based = (n_unique > 1) and (min_val == 0) and (max_val == n_unique - 1)
+                    is_1_based = (n_unique > 1) and (min_val == 1) and (max_val == n_unique)
+                    
+                    is_task2_done = is_0_based or is_1_based
+            
+            status["Task 2"] = status["Task 1"] and is_task2_done
+
             # Task 3 Strict Version: One-Hot Encode category AND discontinued
-            # Must generate both 'category_' and 'discontinued_' prefix columns to pass
-            cat_encoded = any(c.startswith('category_') for c in cols)
-            disc_encoded = any(c.lower().startswith('discontinued_') for c in cols)
+            cat_cols = [c for c in cols if c.startswith('category_')]
+            disc_cols = [c for c in cols if c.lower().startswith('discontinued_')]
+            def is_binary_col(col_name):
+                unique_vals = set(df[col_name].dropna().unique())
+                return unique_vals.issubset({0, 1, 0.0, 1.0, True, False})
+            cat_encoded = (len(cat_cols) > 0) and all(is_binary_col(c) for c in cat_cols)
+            disc_encoded = (len(disc_cols) > 0) and all(is_binary_col(c) for c in disc_cols)
             status["Task 3"] = status["Task 2"] and cat_encoded and disc_encoded
             
             # Task 4 Strict Version: Drop discontinued_False
-            # Prerequisite: Task 3 done (new columns generated) and discontinued_false is deleted (case-insensitive)
             false_dropped = not any(c.lower() == 'discontinued_false' for c in cols)
             status["Task 4"] = status["Task 3"] and false_dropped
             
             # Task 5 Strict Version: Create feature (product_id+1)
-            # Label Encoding starts from 0. If +1 is applied, the minimum value must be >= 1
-            is_plus_one = False
-            if is_task2_done: # Ensure it is numeric first to prevent min() errors
-                is_plus_one = df['product_id'].min() >= 1
-            status["Task 5"] = status["Task 4"] and is_plus_one 
+            status["Task 5"] = status["Task 4"] and is_1_based
             
             # Task 6 Strict Version: Convert launch_date to datetime
             # Logic: column must be datetime format. 
