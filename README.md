@@ -27,15 +27,15 @@ This project fulfills the advanced requirements for Project 3 by demonstrating:
 * **Code Reproducibility:** Well-documented and easily reproducible code, with clear explanations provided throughout our data cleaning and analysis notebooks.
 
 
-## URL repository for AB test:
+## URL for AB test:
 
-URL: [https://xsxsx-999.github.io/random-url-for-AB-test-5243/](https://xsxsx-999.github.io/random-url-for-AB-test-5243/)
+Launched URL: [https://xsxsx-999.github.io/random-url-for-AB-test-5243/](https://xsxsx-999.github.io/random-url-for-AB-test-5243/)
 
 Repository: https://github.com/xsxsx-999/random-url-for-AB-test-5243
 
 This URL Randomly split users to different versions of our App. 
 
-### URLs for 2 versions:
+### Direct URLs for 2 versions:
 
 version A: https://xsxshiny.shinyapps.io/ab-test-version-a/
 
