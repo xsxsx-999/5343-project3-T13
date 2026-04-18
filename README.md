@@ -3,7 +3,7 @@ Designed for STATGR5243, this project establishes a robust framework for conduct
 
 
 ## Project Structure
-```text
+```
 STATGR5243-Project3/
 ├── version_A/                  # Packaged source code for ShinyApp Version A
 ├── version_B/                  # Packaged source code for ShinyApp Version B
@@ -14,6 +14,7 @@ STATGR5243-Project3/
 ├── clean_events_from_raw.csv   # Cleaned dataset based on events extracted from raw data
 ├── clean_users_from_raw.csv    # Cleaned dataset based on users extracted from raw data
 └── ab_test.ipynb               # Main notebook containing the core A/B testing analysis
+```
 
 ## Note for Course Submission
 
