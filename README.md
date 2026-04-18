@@ -1,49 +1,38 @@
-## URL for AB test:
+## Introduction
+Designed for STATGR5243, this project establishes a robust framework for conducting data-driven A/B testing. We developed an interactive data-cleaning platform via ShinyApps and instrumented it with Google Analytics for precise telemetry collection. The core of the project culminates in a full-scale A/B test, transitioning from experimental design to the statistical analysis of real-world user data to evaluate platform efficiency.
 
-https://xsxsx-999.github.io/random-url-for-AB-test-5243/
 
-This URL Randomly split users to different versions of our App. The html code is named 'index.html'.
+## Project Structure
+```text
+STATGR5243-Project3/
+├── version_A/                  # Packaged source code for ShinyApp Version A
+├── version_B/                  # Packaged source code for ShinyApp Version B
+├── README.md                   # Project documentation
+├── index.html                  # Reference code for webpage deployment (for more details,see 'URL repository for AB test')
+├── raw_data.csv                # Raw user data collected via Google Analytics
+├── cleaning.ipynb              # Jupyter Notebook for cleaning and preprocessing raw data
+├── clean_events_from_raw.csv   # Cleaned dataset based on events extracted from raw data
+├── clean_users_from_raw.csv    # Cleaned dataset based on users extracted from raw data
+└── ab_test.ipynb               # Main notebook containing the core A/B testing analysis
+
+## Note for Course Submission
+
+This project fulfills the advanced requirements for Project 3 by demonstrating:
+
+* **Experimental Design:** A well-structured A/B testing setup with clearly justified research goals, hypotheses, and a strong methodology.
+* **Data Collection & Quality:** Original, high-quality user data actively collected via Google Analytics, featuring well-organized datasets and thorough documentation of our data choices.
+* **Statistical Analysis:** Strong statistical analysis applied to real-world data, ensuring correct interpretations of user performance metrics.
+* **Results & Insights:** Insightful and well-supported conclusions regarding UI efficiency, accompanied by a meaningful discussion of the findings.
+* **Code Reproducibility:** Well-documented and easily reproducible code, with clear explanations provided throughout our data cleaning and analysis notebooks.
+
+
+## URL repository for AB test:
+
+[https://xsxsx-999.github.io/random-url-for-AB-test-5243/](https://github.com/xsxsx-999/random-url-for-AB-test-5243)
+
+This URL Randomly split users to different versions of our App. 
 
 ### URLs for 2 versions:
 
 version A: https://xsxshiny.shinyapps.io/ab-test-version-a/
 version B: https://xsxshiny.shinyapps.io/ab-test-version-b/
-
-(To be modified)
-This project is a graduate-level web application built for STATGR5243. It provides a complete pipeline for data science tasks, allowing users to upload datasets (CSV, Excel, JSON, Parquet), clean and preprocess them, engineer new features, and perform exploratory data analysis (EDA) through an intuitive and responsive interface.
-
-## Instruction for local users
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/xsxsx-999/5343-project3-T13.git
-   cd 5243-project3-T13
-   ```
-
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-Run the application locally:
-
-```bash
-shiny run app.py
-```
-
-Navigate to `http://localhost:8000` in your browser.
-
-## Project Structure
-to be written
-
-## Note for Course Submission
-
-to be written
