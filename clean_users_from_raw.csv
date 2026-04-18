@@ -1,0 +1,75 @@
+user_id,app_version,tasks_completed_at_dropout,rating,total_time_spent_seconds,avg_time_spent_seconds,tasks_completed_list
+07736719-4a6f-4d13-b43b-7a27c1aed2c9,A,3,4,45.15,15.05,Task 1|Task 2|Task 3
+0cc8e3c1-fe7e-4f3a-920c-cf7cfed7c65f,B,9,3,1362.1,151.34,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9
+0d28e9a6-3fce-46c0-a5cd-a8b76bf1d331,A,9,3,224.05,24.89,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9
+0f1be914-7fb3-48b0-99de-40113d800b6d,B,11,5,1108.81,100.8,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+10037e18-7099-4d6c-a325-e5f58d7e25b8,B,6,2,285.77,47.63,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6
+112af536-c112-4c07-93ef-28548e7d7224,B,5,4,259.63,51.93,Task 1|Task 2|Task 3|Task 4|Task 5
+17c25a56-4479-45d9-9fc6-0513a0516070,B,6,2,691.3,115.22,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6
+18a0d11c-034b-4821-b5fc-6af07a34c83e,A,7,2,903.45,129.06,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7
+1b84ad05-0d03-4816-aaec-9978e5e3002a,B,6,2,332.04,55.34,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6
+1edd2000-ca74-4728-8ed4-466cf163182f,B,8,1,978.01,122.25,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+2292ac62-e8b6-4bbe-9c31-d77f0639471b,A,5,4,255.18,51.04,Task 1|Task 2|Task 3|Task 4|Task 5
+25ba505d-a459-45da-b6e2-cbdc2934c87e,A,1,5,33.55,33.55,Task 1
+2de8cc83-0be3-45be-978b-6f664ecc8abb,A,3,2,121.38,40.46,Task 1|Task 2|Task 3
+2dfea0df-180c-46ca-a6b4-4e7a2b0a51e7,A,1,5,19.3,19.3,Task 1
+2e1b241d-f965-49a8-961b-53fb0f71800a,A,1,5,14.22,14.22,Task 1
+312f6d2c-0fd1-49bf-9cdc-796b4fe40014,A,9,2,392.63,43.63,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9
+335e2924-231c-46f6-82a0-caa4482aee18,B,1,1,129.8,129.8,Task 1
+338e6904-012a-4f46-9bcc-2126747cf2b0,A,9,4,118.65,13.18,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9
+347643d3-9795-4990-a41f-7b7a2b850a17,B,8,2,326.58,40.82,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+36b1f657-89d1-42f3-bc0e-cc7293c00d7c,B,4,3,496.03,124.01,Task 1|Task 2|Task 3|Task 4
+413184e0-d61c-4db2-9114-c3731ed7dfab,A,2,4,35.0,17.5,Task 1|Task 2
+431d29b1-6c40-4358-91b7-aa9cbb71b247,A,8,5,420.53,52.57,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+4843554a-58dc-4ee5-813d-e341643c1f8c,A,5,4,292.25,58.45,Task 1|Task 2|Task 3|Task 4|Task 5
+4b0ce4f8-03e6-4393-aeb9-60564236df95,B,3,3,48.37,16.12,Task 1|Task 2|Task 3
+4c78e336-e15f-4a49-8ce9-a0fed6d221aa,A,1,5,7.45,7.45,Task 1
+4e490dcb-b86d-4d3d-8196-7b211b40a1f7,B,11,2,808.39,73.49,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+527071cd-f4de-4bfd-b66e-acab5e0b0891,A,11,5,504.63,45.88,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+53eb6969-97b6-4d52-9f0d-3da960c30402,B,1,4,176.03,176.03,Task 1
+54a4b9c1-8dd8-4c5d-ab16-d1a0fd9782f1,B,5,2,225.21,45.04,Task 1|Task 2|Task 3|Task 4|Task 5
+5768fd9d-02f4-4527-9a97-90c4b670dc5c,A,1,5,459.85,459.85,Task 1
+5b1948a0-c269-455a-a539-cb0d1ff75e8f,B,6,3,642.75,107.12,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6
+61685f87-8eca-4bbe-9bb4-65f3497fb83b,A,5,4,1037.49,207.5,Task 1|Task 2|Task 3|Task 4|Task 5
+61c551da-ce4d-45d4-813d-ab79a4362260,B,1,1,45.24,45.24,Task 1
+67560e2f-6430-43d8-b5f4-3e6446bb6f4c,B,11,4,923.17,83.92,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+6c3a7402-266c-42a2-b39d-aaddd0dc3427,B,5,1,305.81,61.16,Task 1|Task 2|Task 3|Task 4|Task 5
+6e39b059-1521-479a-9cc7-0f1252eee297,A,7,4,570.44,81.49,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7
+75991c80-2263-40cc-9088-08a9b6cbf061,A,11,4,873.39,79.4,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+76d01c3a-1190-489a-9b83-4fe9a9aefd4d,B,1,3,49.71,49.71,Task 1
+7ebfead5-9aaa-4300-a7d0-4dba76d2732c,A,3,4,28.73,9.58,Task 1|Task 2|Task 3
+8b005b38-f501-4aaa-ae7a-297a9116d41f,A,11,4,566.31,51.48,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+8cb9f2f3-2668-4cbb-bff4-0061926c2e15,A,5,4,377.51,75.5,Task 1|Task 2|Task 3|Task 4|Task 5
+908baec7-b221-4b1e-824e-c3004e8e5b5f,B,7,3,638.48,91.21,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7
+91403172-179f-4099-b087-329f900f2ddb,A,6,5,291.01,48.5,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6
+92495f81-0daa-4f5c-afa9-5e951c85e1a6,A,3,5,275.01,91.67,Task 1|Task 2|Task 3
+9250495e-d8a5-4032-a3fd-6aa8600399dc,B,8,4,1051.35,131.42,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+92f6abca-4901-46e2-8da6-7989cf2bb09b,A,8,5,526.16,65.77,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+991c3ef0-ab9a-47a5-acf8-3ded91db2bf1,B,8,2,2037.77,254.72,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+a25299df-e385-4bbe-a00d-670c806c0416,B,1,4,6.73,6.73,Task 1
+a5c1d3a5-0f3f-4aca-8469-0e6e44ffe292,B,3,3,132.14,44.05,Task 1|Task 2|Task 3
+a68893f3-71a3-45b7-934f-d6d5217313c2,B,10,2,2517.91,251.79,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10
+a6f94c94-a3bf-45a0-94f0-fd16c304661a,A,5,5,82.0,16.4,Task 1|Task 2|Task 3|Task 4|Task 5
+a78fc5c9-093b-4ffb-b81c-96e0fcc620c6,B,5,1,404.19,80.84,Task 1|Task 2|Task 3|Task 4|Task 5
+ad8702fd-ae56-4176-8713-6c56c6b90bde,B,7,3,724.59,103.51,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7
+b0a8979f-b927-48d1-ab5a-96c3346fd576,A,1,5,19.84,19.84,Task 1
+b272e368-a3ff-4e41-b589-6e13321129e2,A,11,5,613.69,55.79,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+b9fd3906-a45c-4c5f-845f-0d106a51e505,B,8,1,150.92,18.86,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+be32938a-1289-4605-b608-983856893e60,B,10,3,1403.67,140.37,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10
+c1d66a60-6d8f-435e-8416-80cc970e99bd,A,8,5,536.08,67.01,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+c4730790-cd0d-4b7d-b7c3-1ea927d4ca81,A,1,4,64.9,64.9,Task 1
+ce9bfc46-a294-49fc-9f80-6fd29c5904e3,A,8,5,319.87,39.98,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+cefe9496-3a82-4b55-9c80-8c5939eb725b,A,1,4,10.89,10.89,Task 1
+d31d1806-41a7-4ea4-ba35-cec7699ed502,B,3,2,56.23,18.74,Task 1|Task 2|Task 3
+d7dfd347-a7b7-44ad-895e-6a222c28fff8,A,1,4,27.93,27.93,Task 1
+dad2e445-bc78-418e-8e87-8a74472ff0c0,A,4,4,216.27,54.07,Task 1|Task 2|Task 3|Task 4
+dd2bac66-02f6-4003-bd0e-c259612b3747,A,2,2,53.14,26.57,Task 1|Task 2
+deb2065d-5cbf-4b9d-bc19-e86b69867751,B,1,4,15.8,15.8,Task 1
+e051f43e-bc41-493d-ba40-0813d6d200e0,B,9,3,323.4,35.93,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9
+ea371272-0696-414c-a6a7-c67f6be5a35b,B,7,4,302.75,43.25,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7
+efdfc207-8b99-4e43-956f-9953262fb4c9,A,8,5,882.6,110.32,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+f12c820d-969f-4ce6-a481-57a98416fa48,B,11,2,369.9,33.63,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+f32b1aa2-34ed-4bbe-b315-107a7d7247af,A,8,3,665.16,83.14,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8
+f3e0fb95-e117-4c54-8f7d-7b853902fa0e,B,11,4,1902.64,172.97,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10|Task 11
+f55491b9-a554-404f-8330-37a52f518b12,A,1,5,103.9,103.9,Task 1
+f564ecb0-06ed-4940-a33c-eb02afd35956,B,10,2,797.24,79.72,Task 1|Task 2|Task 3|Task 4|Task 5|Task 6|Task 7|Task 8|Task 9|Task 10
