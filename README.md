@@ -1,6 +1,27 @@
 ## Introduction
 Designed for STATGR5243, this project establishes a robust framework for conducting data-driven A/B testing. We developed an interactive data-cleaning platform via ShinyApps and instrumented it with Google Analytics for precise telemetry collection. The core of the project culminates in a full-scale A/B test, transitioning from experimental design to the statistical analysis of real-world user data to evaluate platform efficiency.
 
+## How to Run the Code
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/xsxsx-999/5243-project3-T13.git](https://github.com/xsxsx-999/5243-project3-T13.git)
+   cd 5243-project3-T13
+
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install dependencies
+  ```bash
+  pip install pandas matplotlib numpy jupyter
+  ```
+4. Launch the Analysis
+   ```bash
+   jupyter notebook
+   ```
 
 ## Project Structure
 ```
@@ -15,6 +36,7 @@ STATGR5243-Project3/
 ├── clean_users_from_raw.csv    # Cleaned dataset based on users extracted from raw data
 └── ab_test.ipynb               # Main notebook containing the core A/B testing analysis
 ```
+
 
 ## Note for Course Submission
 
