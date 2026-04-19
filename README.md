@@ -9,17 +9,17 @@ Designed for STATGR5243, this project establishes a robust framework for conduct
    cd 5243-project3-T13
    ```
 
-2. Create a virtual environment (optional but recommended):
+2. **Create a virtual environment (optional but recommended):**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. Install dependencies
+3. **Install dependencies:**
   ```bash
   pip install pandas matplotlib numpy jupyter
   ```
-4. Launch the Analysis
+4. **Launch the Analysis:**
    ```bash
    jupyter notebook
    ```
