@@ -7,6 +7,7 @@ Designed for STATGR5243, this project establishes a robust framework for conduct
    ```bash
    git clone [https://github.com/xsxsx-999/5243-project3-T13.git](https://github.com/xsxsx-999/5243-project3-T13.git)
    cd 5243-project3-T13
+   ```
 
 2. Create a virtual environment (optional but recommended):
    ```bash
